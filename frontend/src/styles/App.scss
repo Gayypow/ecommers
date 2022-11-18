@@ -1,0 +1,29 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', serif;
+    list-style-type: none;
+ }
+ html {
+    scroll-behavior: smooth;
+ }
+ body {
+    overflow-x: hidden;
+    height: 100vh;
+ }
+
+
+ //Header
+ @import './header/Header.scss';
+ //Reklam
+ @import './reklam/Reklam.scss';
+ //harytlar
+ @import './harytlar/Harytlar.scss';
+ //haryt
+ @import './harytlar/Haryt.scss';
+ //footer
+ @import './footer/Footer.scss';
+ 

@@ -1,0 +1,71 @@
+.body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .nav {
+  width: 15%;
+  height: 100vh;
+  background-color: #186ACA;
+}
+
+.body .nav .logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.body .nav ul {
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.body .nav ul li {
+  margin-top: 10px;
+}
+
+.body .nav ul li p {
+  color: #fff;
+}
+
+.body .nav ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.body .second_part {
+  width: 85%;
+  position: relative;
+}
+
+.body .second_part .admin_header {
+  margin: 10px auto;
+  width: 98%;
+  height: 50px;
+  background-color: #186ACA;
+}
+
+.body .second_part table {
+  margin: 30px auto;
+  width: 98%;
+  height: 500px;
+  background-color: #186ACA;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=Admin.css.map */

@@ -1,0 +1,119 @@
+.footer {
+  width: 98%;
+  margin: auto;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.footer .merci {
+  margin: 40px;
+  width: 25%;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.footer .market {
+  width: 25%;
+}
+
+.footer .market ul {
+  margin-top: 100px;
+}
+
+.footer .market ul li {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #474747;
+  margin-top: 20px;
+}
+
+.footer .market ul h3 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer .habarlashmak {
+  width: 25%;
+}
+
+.footer .habarlashmak ul {
+  margin-top: 100px;
+}
+
+.footer .habarlashmak ul li {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #474747;
+  margin-top: 20px;
+}
+
+.footer .habarlashmak ul h3 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer .mobileprogram {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .mobileprogram h3 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #474747;
+  margin-top: 100px;
+}
+
+.footer .mobileprogram img {
+  width: 140px;
+  margin-top: 20px;
+}
+
+.bottom {
+  width: 98%;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+}
+/*# sourceMappingURL=Footer.css.map */

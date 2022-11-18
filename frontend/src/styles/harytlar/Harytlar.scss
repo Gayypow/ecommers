@@ -1,0 +1,10 @@
+.harytlar{
+    padding-bottom: 50px;
+    width: 98%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: auto;
+    justify-items: center;
+    border-bottom: 1px solid #CCCCCC;
+}

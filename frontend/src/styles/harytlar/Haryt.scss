@@ -1,0 +1,47 @@
+.harytMaglumat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 380px;
+    .picture{
+        height: auto;
+        width: 160px;
+        img{
+            height: 100%;
+            width:  100%;
+            object-fit: cover;
+        }
+    }
+    .maglumat{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #323232;
+        margin-top: 30px;
+    }
+    .Bahasy{
+        margin-top: 10px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #186ACA;
+    }
+    button{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 15px;
+        width: 100%;
+        height: 40px;
+        color: #FFFFFF;
+        background-color: #186ACA;
+        border-radius: 0px 0px 4px 4px;
+        border: 0;
+        cursor: pointer
+    }
+}

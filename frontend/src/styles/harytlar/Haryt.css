@@ -1,0 +1,63 @@
+.harytMaglumat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 290px;
+  height: 380px;
+}
+
+.harytMaglumat .picture {
+  height: auto;
+  width: 160px;
+}
+
+.harytMaglumat .picture img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.harytMaglumat .maglumat {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #323232;
+  margin-top: 30px;
+}
+
+.harytMaglumat .Bahasy {
+  margin-top: 10px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #186ACA;
+}
+
+.harytMaglumat button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #186ACA;
+  border-radius: 0px 0px 4px 4px;
+  border: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Haryt.css.map */

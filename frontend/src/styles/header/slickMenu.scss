@@ -1,0 +1,43 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+                img{
+                height: 50px;
+                width: auto;
+            }
+            p{
+                        padding-top: 2px;
+                        font-size: 10px;
+                        font-family: 'Rubik';
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                    }
+            p:hover{
+                color: blue;
+                transform: scale(1.1);
+            }
+             .active{
+            color: blue;
+        }
+        .menuPicture{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slick-next{
+            background-color: red;
+        }
+        .slick-prev{
+            background-color: red;
+        }
+}
+

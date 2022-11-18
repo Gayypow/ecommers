@@ -1,0 +1,62 @@
+.body{
+    width: 100%;
+    display: flex;
+    .nav{
+        width: 15%;
+        height: 100vh;
+        background-color: #186ACA;
+        .logo{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        ul{
+            width: 80%;
+            margin: 20px auto 0;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+            li{
+                margin-top: 10px; 
+                p{
+                    color: #fff;
+                }
+            }
+            li:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    .second_part{
+        width: 85%;
+        position: relative;
+
+        .admin_header{
+            margin: 10px auto;
+            width: 98%;
+            height: 50px;
+            background-color: #186ACA;
+        }
+        .t_container{
+            width: 98%;
+            margin: auto;
+            height: 600px;
+            background-color: #fff;
+            table{
+                width: 100%;
+                border: 1px solid red;
+                border-collapse: collapse;
+                td, th{
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}

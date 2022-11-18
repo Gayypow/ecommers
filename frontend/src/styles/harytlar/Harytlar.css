@@ -1,0 +1,13 @@
+.harytlar {
+  padding-bottom: 50px;
+  width: 98%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: auto;
+  justify-items: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+/*# sourceMappingURL=Harytlar.css.map */

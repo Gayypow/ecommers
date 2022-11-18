@@ -1,0 +1,49 @@
+.Reklam {
+  width: 98%;
+  margin: 160px auto 0;
+}
+
+.Reklam .arrowRight img {
+  height: 30px;
+  width: 30px;
+}
+
+.Reklam .slick-list .slick-slide {
+  margin: 0 auto;
+}
+
+.Reklam .Reklam-wrap {
+  width: 270px;
+  height: 400px;
+  padding: 20px;
+}
+
+.Reklam .Reklam-wrap img {
+  width: 100%;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Reklam .slick-next {
+  background-color: black;
+  color: black;
+  right: 10px;
+  top: 106%;
+}
+
+.Reklam .slick-prev {
+  background-color: black;
+  color: black;
+  left: 10px;
+  top: 106%;
+}
+
+.Reklam ul {
+  bottom: -25px;
+}
+
+.Reklam ul li button:before {
+  font-size: 30px;
+}
+/*# sourceMappingURL=Reklam.css.map */
