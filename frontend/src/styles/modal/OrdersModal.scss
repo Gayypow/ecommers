@@ -1,0 +1,152 @@
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    display: flex;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+    z-index: 1 ;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0
+    
+}
+
+.modal{
+    z-index: 200000000;
+    padding: 10px;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 0;
+    color: #186ACA;
+    outline: none;
+    border: 1px solid #186ACA;
+    background: #FFFFFF;
+    border-radius: 10px;
+    .orderItem{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        border-bottom: 1px solid #CCCCCC;
+        .information{
+            h3{
+                color: #474747;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;  
+                color: #186ACA;
+            }
+        }
+        .actions{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+                padding: 3px;
+                height: 30px;
+                width: 30px;
+                background-color: #CCCCCC;
+                color: #323232;
+                cursor: pointer;
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                background-color: #186ACA;
+                p{
+                    color: #FFFFFF;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .orderInfo{
+        padding: 15px 30px;
+        width: 95%;
+        margin: auto;
+        border-bottom: 1px solid #CCCCCC;
+        color: #323232;
+        .order_number{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                color: #474747
+            }
+            .number{
+                width: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #186ACA;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                line-height: 29px;
+            }
+        }
+    }
+    .order_button{
+        padding: 15px 30px;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            background: #186ACA;
+            border-radius: 10px;
+            width: 400px;
+            height: 50px;   
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 29px;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .close{
+        position: absolute;
+        top:10px;
+        right: 10px;
+        svg{
+            width: 20px;
+            height: 20px;
+            color: #474747;
+            cursor: pointer;
+        }
+    }
+}

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     .nav{
+        display: block;
         width: 15%;
         height: 100vh;
         background-color: #186ACA;
@@ -43,19 +44,118 @@
             background-color: #186ACA;
         }
         .t_container{
+            margin: 70px auto 0;
             width: 98%;
-            margin: auto;
             height: 600px;
             background-color: #fff;
+
             table{
                 width: 100%;
-                border: 1px solid red;
                 border-collapse: collapse;
-                td, th{
+                table-layout: fixed;
+                th{
+                    color: #186ACA;
+                    font-size: 20px;
+                } 
+                td, th{ 
                     border: 1px solid #dddddd;
                     text-align: left;
                     padding: 8px;
+                    svg{
+                        height: 30px;
+                        width:  30px;
+                        color: red;
+                        cursor: pointer;
+                    }
+                    svg:hover{
+                        transform: scale(1.2);
+                    }
+                    svg:nth-of-type(1){
+                        color: #186ACA;
+                    }
                 }
+                td{
+                    font-weight: 600;
+                }
+                
+                .actions{
+                    svg:nth-of-type(2){
+                        margin-left: 30px;
+                    }
+                }
+            }
+            .bigPlus{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: #186ACA;
+                position: absolute;
+                color: #fff;
+                top: 40px;
+                right: 30px;
+                svg{
+                    width: 60px;
+                    height: 60px;
+                    cursor: pointer;
+                }
+                svg:hover{
+                    transform: scale(1.2);
+                }
+            }
+            .AddProduct{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                padding-top: 50px;
+                align-items: center;
+                justify-content: center;
+                    svg{
+                        position: absolute;
+                        top: 0;
+                        right: 30%;
+                        height: 30px;
+                        width: 30px;
+                        cursor: pointer;
+                    }
+                    svg:hover{
+                        transform: scale(1.2);
+                    }
+                    input{
+                        width: 480px;
+                        height: 56px;
+                        border: 1px solid #CCCCCC;
+                        border-radius: 6px;
+                        padding-left: 20px;
+                        display: flex;
+                        align-items: center;
+                        outline: none;
+                        margin-top: 20px;
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    button{
+                        background: #186ACA;
+                        border-radius: 6px;
+                        width: 480px;
+                        height: 55px;   
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px;
+                        font-family: 'Rubik';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #FFFFFF;
+                        border: none;
+                        margin-top: 60px;
+                        cursor: pointer;
+                    }
             }
         }
     }

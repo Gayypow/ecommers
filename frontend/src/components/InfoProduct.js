@@ -21,7 +21,7 @@ const InfoProduct = (props) => {
                         <p>555555</p>
                     </div>
                 </div>
-                <button onClick={() => {props.dispatch({type: 'ADD', id: 1, amount: 1})}}>Sebede Gosh</button>
+                <button onClick={() => {props.dispatch({type: 'ADD', id: 1, name: 'Pizza', price: 100, amount: 1})}}>Sebede Gosh</button>
             </div>
         </div>
     )
